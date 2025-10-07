@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bài tập 7 input</title>
+  <link rel="stylesheet" href="styleinput.css">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+
+<body>
+  <form action="slide.html" method="get" class="input-group">
+    <label for="fullname">Full Name</label>
+    <div class="input-wrapper">
+      <input list="suggested-names" id="fullname" name="fullname" placeholder="Your First Name" required>
+      <span class="arrow">v</span>
+    </div>
+
+    <datalist id="suggested-names">
+      <option value="Amanda">
+    </datalist>
+    <button type="submit" hidden></button>
+  </form>
+</body>
+
+</html>
